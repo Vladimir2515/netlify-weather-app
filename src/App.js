@@ -6,9 +6,9 @@ import WeatherBlock from './components/WeatherBlock';
 import Error from './components/Error';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import API_KEY from './components/api';
 
 
-const API_KEY = process.env.REACT_APP_USER_TOKEN;
 
 const App = () => {
 
